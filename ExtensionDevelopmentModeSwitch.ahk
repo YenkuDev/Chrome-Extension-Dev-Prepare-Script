@@ -36,8 +36,8 @@ for windowId in openWindows {
         ; THIS LIST MIGHT BE INCOMPLETE AND YOU MIGHT WANT TO ADD MORE CRITICAL SYSTEMS. I CANNOT GUARANTEE THAT THIS SCRIPT WILL WORK FOR YOU WITHOUT BREAKING ANYTHING!
         ; USE WITH CAUTION!
         ; #####################################################################################################################
-        if (title != "Program Manager" && title != "Start" && title != "Settings" && title != "Taskbar" && title !=
-            "" && title != "Desktop" && title != "Microsoft Store") {
+        if (title != "Program Manager" && title != "Start" && title != "Settings" && title != "Taskbar" &&
+            title != "" && title != "Desktop" && title != "Microsoft Store") {
             WinKill windowId
         }
     }
